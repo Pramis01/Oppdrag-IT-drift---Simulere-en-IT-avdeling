@@ -75,12 +75,12 @@ Hver ansatt er tildelt én virtuell maskin.
 
 
 ### Ansattes virtuelle maskiner
-- Operativsystem (Windows / Linux)
+- Operativsystem (Windows)
 - Remote Desktop aktivert
 
 ---
 
-## Dokumentasjon og egenvurdering
+## Dokumentasjon 
 
 ### Teknisk dokumentasjon inkluderer
 - Nettverkstopologi
