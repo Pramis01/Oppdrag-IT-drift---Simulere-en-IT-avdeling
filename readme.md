@@ -97,7 +97,7 @@ Denne adressen fungerer som **default gateway** for alle enheter i nettverket.
 
 | Enhet | Rolle | IP-adresse | Subnet mask | Default gateway |
 |-----|------|-----------|-------------|----------------|
-| Ruter | Gateway / DHCP | 192.168.1.7| 255.255.255.0 | 192.168.1.45 |
+| Ruter | Gateway / DHCP | 192.168.1.45| 255.255.255.0 | - |
 | IT-PC | IT-avdeling | 192.168.1.50 | 255.255.255.0 | 192.168.1.45 |
 | Employee1-Win10-VM | Ansatt | Tildelt via DHCP | 255.255.255.0 | 192.168.1.45 |
 | Employee2.win10 | Ansatt | Tildelt via DHCP | 255.255.255.0 | 192.168.1.45 |
