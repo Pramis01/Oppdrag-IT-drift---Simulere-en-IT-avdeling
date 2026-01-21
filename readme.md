@@ -55,7 +55,7 @@ Alle enheter i nettverket kommuniserer via ruteren, inkludert:
 
 Dette gjør nettverket oversiktlig, enkelt å administrere og lett å feilsøke.
 
-![Stjernetopologi nettverk](Images/Stjerne%20topologi.drawio)
+![Stjernetopologi nettverk](Images/Stjerne%20topologi.drawio.png)
 
 
 ### Tilbakestilling av ruter
