@@ -37,7 +37,7 @@ Operativsystemet ble levert av lærer som ISO-fil.
 ### Eventuelle utfordringer
 Det oppstod ingen kritiske problemer under oppsettet av den virtuelle maskinen.
 
-## Oppsett av virtuell maskin (Employee 2)
+
 
 ## Nettverksoppsett
 
@@ -76,6 +76,36 @@ Dette inkluderer både fysiske maskiner og virtuelle maskiner.
 Virtuelle maskiner er koblet til nettverket ved bruk av **Bridged network mode**
 i Oracle VirtualBox. Dette gjør at VM-ene opptrer som egne enheter i nettverket
 og mottar IP-adresser direkte fra ruteren.
+
+## IP-adressering
+
+Det lokale nettverket benytter private IP-adresser.
+Ruteren fungerer som **default gateway** og **DHCP-server**, og tildeler
+IP-adresser automatisk til tilkoblede enheter.
+
+### Ruter (LAN)
+Ruterens LAN-IP-adresse ble endret fra standardinnstillingen
+`192.168.0.1` til `192.168.1.45`.
+Denne adressen fungerer som **default gateway** for alle enheter i nettverket.
+
+### IP-oppsett
+- IT-avdelingens PC er konfigurert med **statisk IP-adresse**
+- Ansattes maskiner mottar IP-adresser automatisk via **DHCP**
+- Alle enheter befinner seg i samme subnett
+
+### Enheter i nettverket
+
+| Enhet | Rolle | IP-adresse | Subnet mask | Default gateway |
+|-----|------|-----------|-------------|----------------|
+| Ruter | Gateway / DHCP | 192.168.1.7| 255.255.255.0 | 192.168.1.45 |
+| IT-PC | IT-avdeling | 192.168.1.50 | 255.255.255.0 | 192.168.1.45 |
+| Employee1-Win10-VM | Ansatt | Tildelt via DHCP | 255.255.255.0 | 192.168.1.45 |
+| Employee2.win10 | Ansatt | Tildelt via DHCP | 255.255.255.0 | 192.168.1.45 |
+
+### Kommentar
+Endring av ruterens LAN-IP medfører at tilkoblede enheter må fornye
+sin IP-adresse for å kommunisere korrekt i nettverket
+
 
 
 
