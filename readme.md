@@ -39,6 +39,45 @@ Det oppstod ingen kritiske problemer under oppsettet av den virtuelle maskinen.
 
 ## Oppsett av virtuell maskin (Employee 2)
 
+## Nettverksoppsett
+
+Nettverket er satt opp som et lokalt nettverk (LAN) med **stjernetopologi**.
+I denne topologien er ruteren det sentrale punktet som alle enheter er koblet til.
+
+### Nettverkstopologi
+**Topologi:** Stjernetopologi  
+**Sentralt punkt:** Ruter  
+
+Alle enheter i nettverket kommuniserer via ruteren, inkludert:
+- IT-avdelingens PC
+- Ansattes virtuelle maskiner (VM)
+- Andre tilkoblede enheter
+
+Dette gjør nettverket oversiktlig, enkelt å administrere og lett å feilsøke.
+
+![Stjernetopologi nettverk](Images/Stjerne%20topologi.drawio)
+
+
+### Tilbakestilling av ruter
+Ruteren ble først tilbakestilt til fabrikkinnstillinger for å sikre et rent
+utgangspunkt før konfigurasjon.
+
+### Konfigurasjon av ruter
+Ruteren ble konfigurert via webgrensesnitt med følgende innstillinger:
+- Trådløst nettverk (SSID) satt til et passende navn
+- Nettverket ble sikret med **WPA2-Personal** og passord
+- Ruteren fungerer som default gateway og DHCP-server
+
+### IP-adressering
+Alle enheter i nettverket mottar IP-adresser automatisk via DHCP.
+Dette inkluderer både fysiske maskiner og virtuelle maskiner.
+
+### Tilkobling av virtuell maskin
+Virtuelle maskiner er koblet til nettverket ved bruk av **Bridged network mode**
+i Oracle VirtualBox. Dette gjør at VM-ene opptrer som egne enheter i nettverket
+og mottar IP-adresser direkte fra ruteren.
+
+
 
 
 

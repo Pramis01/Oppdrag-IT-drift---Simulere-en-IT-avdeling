@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
+  <diagram name="Page-1" id="ZfmX7i3UPe2MlTbQGUI5">
+    <mxGraphModel dx="1279" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oMQni7H-Y8ZCbwSBGiJc-1" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="oMQni7H-Y8ZCbwSBGiJc-2" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="200" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="oMQni7H-Y8ZCbwSBGiJc-4" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="" vertex="1">
+          <mxGeometry height="70" width="78" x="362" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="oMQni7H-Y8ZCbwSBGiJc-6" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="oMQni7H-Y8ZCbwSBGiJc-8" edge="1" parent="1" source="oMQni7H-Y8ZCbwSBGiJc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" target="oMQni7H-Y8ZCbwSBGiJc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMQni7H-Y8ZCbwSBGiJc-9" edge="1" parent="1" source="oMQni7H-Y8ZCbwSBGiJc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.192;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" target="oMQni7H-Y8ZCbwSBGiJc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMQni7H-Y8ZCbwSBGiJc-10" edge="1" parent="1" source="oMQni7H-Y8ZCbwSBGiJc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.495;entryY=0.952;entryDx=0;entryDy=0;entryPerimeter=0;" target="oMQni7H-Y8ZCbwSBGiJc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMQni7H-Y8ZCbwSBGiJc-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Stjerne Topologi&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="370" x="215" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
