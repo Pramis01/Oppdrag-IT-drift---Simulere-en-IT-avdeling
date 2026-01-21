@@ -102,6 +102,10 @@ Denne adressen fungerer som **default gateway** for alle enheter i nettverket.
 | Employee1-Win10-VM | Ansatt | Tildelt via DHCP | 255.255.255.0 | 192.168.1.45 |
 | Employee2.win10 | Ansatt | Tildelt via DHCP | 255.255.255.0 | 192.168.1.45 |
 
+DHCP benyttes for ansattemaskiner for å forenkle administrasjon,
+mens statisk IP brukes på IT-avdelingens PC for stabil tilgang.
+
+
 ### Kommentar
 Endring av ruterens LAN-IP medfører at tilkoblede enheter må fornye
 sin IP-adresse for å kommunisere korrekt i nettverket
