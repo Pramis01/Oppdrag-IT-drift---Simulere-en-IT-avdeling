@@ -110,6 +110,46 @@ mens statisk IP brukes på IT-avdelingens PC for stabil tilgang.
 Endring av ruterens LAN-IP medfører at tilkoblede enheter må fornye
 sin IP-adresse for å kommunisere korrekt i nettverket
 
+## IT-avdelingens PC
+
+### Tanke av PC
+IT-avdelingens PC ble tanket i henhold til gitte instrukser for å sikre
+korrekt operativsystem og oppsett.
+
+### Installert programvare
+- **OBS Studio**  
+  Brukes til skjermopptak og dokumentasjon av arbeid, inkludert Remote Desktop.
+- **Python**  
+  Brukes for å kjøre scripts og støtte ticket-systemet.
+
+---
+
+## Remote Desktop (RDP)
+
+Remote Desktop ble satt opp og testet mellom IT-avdelingens PC og
+den ansattes virtuelle maskin.
+
+For å kunne bruke Remote Desktop må begge maskinene være koblet til
+**samme lokale nettverk (LAN)**. Når dette kravet er oppfylt, kan IT-avdelingen
+koble seg direkte til den ansattes maskin ved bruk av IP-adresse.
+
+Tilkoblingen ble utført ved bruk av **Remote Desktop Connection (mstsc)**,
+og testen var vellykket. IT-avdelingen fikk full tilgang til
+den ansattes skrivebord.
+
+Skjermbilder av Remote Desktop-tilkoblingen er lagret som dokumentasjon.
+
+---
+
+## Programvare – IT-avdelingen
+
+IT-avdelingen benytter følgende verktøy:
+- OBS Studio for dokumentasjon
+- Python for scripts og ticket-system
+- Remote Desktop for fjernsupport
+
+---
+
 
 
 
