@@ -26,7 +26,7 @@ Operativsystemet ble levert av lærer som ISO-fil.
 | Disk-type | VDI (dynamisk allokert) |
 | Nettverksmodus | Bridged |
 | Bruker | Employee 1 | 
-| Passord | IMkuben1337! |
+| Passord | ikke lagret av sikkerhetshensyn |
 | IP-adresse | Tildelt via DHCP |
 
 ### Oppsett og konfigurasjon
@@ -111,45 +111,86 @@ mens statisk IP brukes på IT-avdelingens PC for stabil tilgang.
 Endring av ruterens LAN-IP medfører at tilkoblede enheter må fornye
 sin IP-adresse for å kommunisere korrekt i nettverket
 
-## IT-avdelingens PC
+## 🖥️ IT-avdelingens PC
 
-### Tanke av PC
-IT-avdelingens PC ble tanket i henhold til gitte instrukser for å sikre
-korrekt operativsystem og oppsett.
+IT-avdelingens PC brukes som hovedmaskin for drift, fjernsupport,
+dokumentasjon og håndtering av IT-saker i bedriften.
 
-### Installert programvare
+---
+
+### 🔹 Systeminformasjon – IT-avdelingens PC
+
+| Parameter | Verdi |
+|---------|------|
+| Enhetsnavn | DESKTOP-VVB7T5U |
+| Rolle | IT-avdeling |
+| Maskintype | Fysisk PC |
+| Prosessor | Intel® Core™ i5-7200U CPU @ 2.50 GHz |
+| RAM | 8 GB (7.86 GB tilgjengelig) |
+| Systemtype | 64-bit operativsystem, x64-basert prosessor |
+| Operativsystem | Windows 10 Pro |
+| Versjon | 22H2 |
+| IP-adresse | Statisk IP |
+| Nettverk | Lokalnettverk (LAN) |
+| Parameter | Verdi |
+| Brukernavn | PrSt |
+| Rolle | IT-avdeling (administrator) |
+| Passord | ikke lagret av sikkerhetshensyn |
+| Funksjon | Drift, fjernsupport, dokumentasjon |
+
+---
+
+### 🔹 Tanke av PC
+
+IT-avdelingens PC ble tanket ved bruk av en **tom harddisk**.
+Etter montering av harddisken ble **Windows 10 installert fra ISO-fil**.
+
+Tanking ble utført for å sikre et rent og kontrollert utgangspunkt,
+med korrekt operativsystem og grunnoppsett før videre konfigurasjon
+og installasjon av nødvendig programvare.
+
+---
+
+### 🔹 Programvarevalg (Software choices)
+
+Følgende programvare ble installert på IT-avdelingens PC basert på
+behov for drift, support og dokumentasjon:
+
 - **OBS Studio**  
-  Brukes til skjermopptak og dokumentasjon av arbeid, inkludert Remote Desktop.
+  Brukes til skjermopptak og dokumentasjon av IT-arbeid, inkludert
+  Remote Desktop-tilkoblinger og løsning av tickets.
+
 - **Python**  
-  Brukes for å kjøre scripts og støtte ticket-systemet.
+  Brukes for å kjøre scripts og støtte ticket-systemet som benyttes
+  til håndtering av IT-saker fra ansatte.
+
+- **Remote Desktop Connection (mstsc)**  
+  Brukes for å koble til ansattes maskiner og gi fjernsupport.
+
+Programvaren ble valgt fordi den er relevant for IT-drift og ofte
+benyttes i profesjonelle IT-miljøer.
 
 ---
 
-## Remote Desktop (RDP)
+### 🔹 Installerte tjenester
 
-Remote Desktop ble satt opp og testet mellom IT-avdelingens PC og
-den ansattes virtuelle maskin.
+Følgende tjenester er konfigurert og i bruk på IT-avdelingens PC:
 
-For å kunne bruke Remote Desktop må begge maskinene være koblet til
-**samme lokale nettverk (LAN)**. Når dette kravet er oppfylt, kan IT-avdelingen
-koble seg direkte til den ansattes maskin ved bruk av IP-adresse.
-
-Tilkoblingen ble utført ved bruk av **Remote Desktop Connection (mstsc)**,
-og testen var vellykket. IT-avdelingen fikk full tilgang til
-den ansattes skrivebord.
-
-Skjermbilder av Remote Desktop-tilkoblingen er lagret som dokumentasjon.
+- **Remote Desktop Service (RDP)** – muliggjør fjernsupport
+- **Windows Firewall** – beskytter systemet og tillater nødvendige tjenester
+- **Ticket-system** – brukes til mottak og håndtering av IT-saker
+- **HTTP-tjeneste** – brukt ved testing av lokal HTTP-server
 
 ---
 
-## Programvare – IT-avdelingen
+### 🔹 Formål med IT-avdelingens PC
 
-IT-avdelingen benytter følgende verktøy:
-- OBS Studio for dokumentasjon
-- Python for scripts og ticket-system
-- Remote Desktop for fjernsupport
+IT-avdelingens PC brukes til:
+- Fjernsupport av ansatte
+- Dokumentasjon av IT-arbeid
+- Løsning og håndtering av tickets
+- Drift og administrasjon av IT-tjenester
 
----
 
 ## Ticket-løsninger
 
