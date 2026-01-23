@@ -151,7 +151,7 @@ og installasjon av nødvendig programvare.
 
 ---
 
-### 🔹 Programvarevalg (Software choices)
+### 🔹 Programvarevalg 
 
 Følgende programvare ble installert på IT-avdelingens PC basert på
 behov for drift, support og dokumentasjon:
@@ -172,14 +172,19 @@ benyttes i profesjonelle IT-miljøer.
 
 ---
 
-### 🔹 Installerte tjenester
+### 🔹 Brukte tjenester
 
-Følgende tjenester er konfigurert og i bruk på IT-avdelingens PC:
+Følgende tjenester ble brukt på IT-avdelingens PC:
 
 - **Remote Desktop Service (RDP)** – muliggjør fjernsupport
 - **Windows Firewall** – beskytter systemet og tillater nødvendige tjenester
 - **Ticket-system** – brukes til mottak og håndtering av IT-saker
 - **HTTP-tjeneste** – brukt ved testing av lokal HTTP-server
+- **DHCP-tjeneste (ruter)** – tildeler IP-adresser automatisk til enheter i nettverket
+
+Disse tjenestene dekker grunnleggende behov for drift, sikkerhet
+og support i en IT-avdeling.
+
 
 ---
 
