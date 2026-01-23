@@ -6,6 +6,9 @@ Målet er å sette opp nettverksinfrastruktur, virtuelle maskiner for ansatte, n
 
 ## Virtuelle maskiner
 
+### Hvorfor vlagte vi oracle virtual box ? 
+Du bør velge Oracle VirtualBox fremfor Hyper-V fordi VirtualBox er gratis, enkelt å installere og lett å bruke, spesielt for testing og opplæring i IT-miljøer. Hyper-V er tett integrert i Windows, men kan være mer komplekst å konfigurere og krever ofte profesjonelle Windows-utgaver. VirtualBox gir bedre fleksibilitet for brukere som vil kjøre flere virtuelle maskiner lokalt uten avansert oppsett. I tillegg fungerer VirtualBox godt på tvers av ulike systemer og er derfor et mer allsidig valg for en IT-avdeling som ønsker enkel administrasjon.
+
 ### Oppsett av virtuell maskin (Employee 1)
 
 Det ble opprettet en virtuell maskin som representerer en ansatt i bedriften.
@@ -197,6 +200,9 @@ behov for drift, support og dokumentasjon:
 
 - **Remote Desktop Connection (mstsc)**  
   Brukes for å koble til ansattes maskiner og gi fjernsupport.
+
+- **Oracle VirtualBox**  
+  Brukes til å opprette og administrere virtuelle maskiner for ansatte.
 
 Programvaren ble valgt fordi den er relevant for IT-drift og ofte
 benyttes i profesjonelle IT-miljøer.
