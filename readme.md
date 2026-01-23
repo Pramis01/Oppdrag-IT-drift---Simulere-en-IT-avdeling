@@ -6,38 +6,65 @@ Målet er å sette opp nettverksinfrastruktur, virtuelle maskiner for ansatte, n
 
 ## Virtuelle maskiner
 
-## Oppsett av virtuell maskin (Employee 1)
+### Oppsett av virtuell maskin (Employee 1)
 
 Det ble opprettet en virtuell maskin som representerer en ansatt i bedriften.
 VM-en ble satt opp ved bruk av Oracle VirtualBox og installert med Windows 10 Pro.
 Operativsystemet ble levert av lærer som ISO-fil.
 
-### VM-detaljer
+### VM-detaljer - Employee 1
 
 | Parameter | Verdi |
 |---------|------|
 | VM-navn | Employee1-Win10-VM |
+| Enhetsnavn | Employee1-Win10-Vm |
 | Eier | Pramis |
 | Virtualiseringsprogram | Oracle VirtualBox |
-| Operativsystem | Windows 10 Pro |
-| CPU | 1 vCPU (standard) |
+| Operativsystem | Windows 10 Pro Education |
+| Versjon | 22H2 |
+| Prosessor | AMD Ryzen 5 PRO 7530U @ 2.00 GHz |
 | RAM | 2 GB |
-| Diskstørrelse | 50 GB |
-| Disk-type | VDI (dynamisk allokert) |
+| Systemtype | 64-bit operativsystem, x64-basert prosessor |
 | Nettverksmodus | Bridged |
-| Bruker | Employee 1 | 
-| Passord | ikke lagret av sikkerhetshensyn |
 | IP-adresse | Tildelt via DHCP |
+| Bruker | Employee 1 |
+| Passord | Ikke lagret av sikkerhetshensyn |
 
-### Oppsett og konfigurasjon
+---
+
+### Oppsett av virtuell maskin (Employee 2)
+
+Det ble også opprettet en virtuell maskin for en annen ansatt i bedriften.
+Denne VM-en ble konfigurert med tilsvarende oppsett som Employee 1.
+
+### VM-detaljer - Employee 2
+
+| Parameter | Verdi |
+|---------|------|
+| VM-navn | Employee2-Win10-VM |
+| Enhetsnavn | Employe2-Win10 |
+| Eier | Stian |
+| Virtualiseringsprogram | Oracle VirtualBox |
+| Operativsystem | Windows 10 Pro Education |
+| Versjon | 22H2 |
+| Prosessor | AMD Ryzen 5 PRO 7530U @ 2.00 GHz |
+| RAM | 2 GB |
+| Systemtype | 64-bit operativsystem, x64-basert prosessor |
+| Nettverksmodus | Bridged |
+| IP-adresse | Tildelt via DHCP |
+| Bruker | Employee 2 |
+| Passord | Ikke lagret av sikkerhetshensyn |
+
+---
+
+### Felles oppsett og konfigurasjon
 - Base Memory ble satt til 2048 MB (2 GB RAM)
 - Boot-rekkefølge under installasjon var: Floppy, Optical og Hard Disk
-- VM-en ble konfigurert til å fungere som en ansattmaskin i det lokale nettverket
-- Nettverksmodus **Bridged** ble valgt for å gi VM-en direkte tilgang til LAN
+- VM-ene ble konfigurert til å fungere som ansattmaskiner i det lokale nettverket
+- Nettverksmodus **Bridged** ble valgt for å gi direkte tilgang til LAN
 
 ### Eventuelle utfordringer
-Det oppstod ingen kritiske problemer under oppsettet av den virtuelle maskinen.
-
+Det oppstod ingen kritiske problemer under oppsettet av de virtuelle maskinene.
 
 
 ## Nettverksoppsett
