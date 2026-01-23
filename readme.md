@@ -25,7 +25,8 @@ Operativsystemet ble levert av lærer som ISO-fil.
 | Diskstørrelse | 50 GB |
 | Disk-type | VDI (dynamisk allokert) |
 | Nettverksmodus | Bridged |
-| Bruker | Employee 1 |
+| Bruker | Employee 1 | 
+| Passord | IMkuben1337! |
 | IP-adresse | Tildelt via DHCP |
 
 ### Oppsett og konfigurasjon
@@ -149,6 +150,69 @@ IT-avdelingen benytter følgende verktøy:
 - Remote Desktop for fjernsupport
 
 ---
+
+## Ticket-løsninger
+
+Følgende tickets ble mottatt og behandlet av IT-avdelingen som en del av
+simuleringen av en IT-supporttjeneste. Alle ticket-løsninger ble dokumentert
+ved hjelp av skjermopptak.
+
+### Oversikt over løste tickets
+
+| Ticket | Beskrivelse | Tiltak |
+|------|------------|-------|
+| Statisk internett | Problem relatert til nettverkstilkobling og IP-konfigurasjon | Kontroll og justering av IP-innstillinger |
+| Feilsøking Wi-Fi | Manglende trådløs tilkobling | Kontroll og korrigering av fysisk nettverkstilkobling mellom ruter og switch |
+| Oppdater drivere | Updaterte eller manglende drivere | Oppdatering av nødvendige drivere |
+| Personalisering | Tilpasning av brukerinnstillinger | Endring av bakgrunnsbilde |
+| HTTP-server | Behov for lokal webserver | Oppsett og testing av enkel HTTP-server |
+
+### Dokumentasjon
+Alle tickets ble løst av IT-avdelingen og dokumentert med skjermopptak som viser
+arbeidsprosess, feilsøking og endelig løsning.
+
+## Ticket-løsninger
+
+Alle tickets ble løst av IT-avdelingen og dokumentert med skjermopptak.
+Under hver ticket er det lagt inn videodokumentasjon som viser løsning og prosess.
+
+### 📌 Statisk internett
+Problem relatert til nettverkstilkobling og IP-konfigurasjon.  
+Løsning: Kontroll og justering av IP-innstillinger.
+
+ **Video:**
+- [Statisk internett](Videos/statisk_ip_adress.mp4)
+
+---
+### 📌 Feilsøking av Wi-Fi
+Det trådløse nettverket var ikke tilgjengelig for brukerne. Ved feilsøking ble det avdekket at problemet ikke var relatert til programvare eller konfigurasjon, men til fysisk tilkobling. Ruteren var ikke korrekt koblet til switch med nettverkskabel. Etter at ruteren ble koblet riktig til switchen, fungerte det trådløse nettverket som forventet. Denne ticketen ble løst gjennom fysisk kabling og ble derfor ikke dokumentert med skjermopptak.
+
+### 📌 Oppdater drivere
+Problem med utdaterte eller manglende drivere.  
+Løsning: Oppdatering av nødvendige systemdrivere.
+
+**Video:**
+- [Oppdater drivere](Videos/drivere.mp4)
+
+---
+
+### 📌 Personalisering
+Behov for tilpasning av brukerinnstillinger.  
+Løsning: Endring av bakgrunnbilde.
+
+**Video:**
+- [Personalisering](Videos/personalisering.mp4)
+
+---
+
+### 📌 HTTP-server
+Behov for lokal webserver for testing og demonstrasjon.  
+Løsning: Oppsett og testing av enkel innebyd python HTTP-server.
+
+**Video:**
+- [hTTP-server](Videos/HTTP-Server%20(1).mp4)
+
+
 
 
 
