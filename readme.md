@@ -301,11 +301,12 @@ ved hjelp av et ticket-system. Arbeidet har gitt meg bedre innsikt i
 feilsøking, dokumentasjon og viktigheten av struktur i IT-drift.
 
 Stian:
-Gjennom arbeidet med dette prosjektet har jeg fått bedre forståelse for
-hvordan en IT-avdeling jobber i praksis. Jeg har lært å sette opp virtuelle
-maskiner, konfigurere nettverk, bruke Remote Desktop og løse IT-saker
-ved hjelp av et ticket-system. Arbeidet har gitt meg bedre innsikt i
-feilsøking, dokumentasjon og viktigheten av struktur i IT-drift.
+I denne prosjeketet hvordan man bruker Remote Desktop Protocol(RDP), og fikk vite at 
+der er en veldig brukbar funksjon, som gjør at brukere kan remote kontrollere en annen 
+pc fra samme bedrift med sikkerhet, og da slipper man å flytte seg for å hjelpe en 
+kollega. Det jeg hadde lyst å gjøre annerledes hvis vi hadde gjort annerledes er å 
+plannelege bedre på starten av, og dokumenetere samtidig mens jeg jobber.
+
 
 
 
