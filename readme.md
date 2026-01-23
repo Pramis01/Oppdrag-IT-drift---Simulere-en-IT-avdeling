@@ -142,12 +142,16 @@ dokumentasjon og håndtering av IT-saker i bedriften.
 
 ### 🔹 Tanke av PC
 
-IT-avdelingens PC ble tanket ved bruk av en **tom harddisk**.
-Etter montering av harddisken ble **Windows 10 installert fra ISO-fil**.
+IT-avdelingens PC ble tanket ved bruk av en tom harddisk og installert
+med Windows 10 fra ISO-fil.
 
-Tanking ble utført for å sikre et rent og kontrollert utgangspunkt,
-med korrekt operativsystem og grunnoppsett før videre konfigurasjon
-og installasjon av nødvendig programvare.
+Alle detaljerte steg for tanking og oppsett av PC-en er dokumentert
+i et eget Word-dokument utarbeidet av samarbeidspartner.
+Dette dokumentet inneholder full steg-for-steg-beskrivelse av
+installasjonsprosessen.
+
+Detaljert dokumentasjon for tanking av PC er tilgjengelig i vedlagt dokument:  
+[Se dokumentasjon for tanking av IT-PC](Docs/Pc-Tanking.pdf)
 
 ---
 
