@@ -301,6 +301,11 @@ ved hjelp av et ticket-system. Arbeidet har gitt meg bedre innsikt i
 feilsøking, dokumentasjon og viktigheten av struktur i IT-drift.
 
 Stian:
+Gjennom arbeidet med dette prosjektet har jeg fått bedre forståelse for
+hvordan en IT-avdeling jobber i praksis. Jeg har lært å sette opp virtuelle
+maskiner, konfigurere nettverk, bruke Remote Desktop og løse IT-saker
+ved hjelp av et ticket-system. Arbeidet har gitt meg bedre innsikt i
+feilsøking, dokumentasjon og viktigheten av struktur i IT-drift.
 
 
 
